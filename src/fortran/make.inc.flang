@@ -1,7 +1,7 @@
 FC	?= flang-new
 FCFLAGS	:= -O3
 
-DOCONCURRENT_FLAG   = -fdo-concurrent-parallel=device -fopenmp --offload-arch=${GPUARCH} -DUSE_OMP_GET_WTIME
+DOCONCURRENT_FLAG   =
 ARRAY_FLAG          =
 OPENMP_FLAG         = -fopenmp --offload-arch=${GPUARCH} -DUSE_OMP_GET_WTIME
 OPENACC_FLAG        =
